@@ -1,0 +1,27 @@
+body{
+    background-color: orange;
+    justify-content: center;
+}
+.Text{
+    background-color: white;
+    border-radius: 10%;
+    width: 400px;
+    height: 75px;
+    margin-left: 475px;
+}
+.Welcome{
+    color:rgb(19, 10, 10);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+}
+.acessAbility{
+    background-color: white;
+    font-size: larger;
+    color: rgb(19, 10, 10);
+    width: 250px;
+    border-radius: 10%;
+    width: 325px;
+    height: 75px;
+    margin-left: 550px;
+}
+
