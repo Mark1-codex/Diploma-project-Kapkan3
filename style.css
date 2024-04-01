@@ -1,27 +1,74 @@
-body{
-    background-color: orange;
+.mainBlock{
+    background-image: linear-gradient(to bottom right, red, yellow);
     justify-content: center;
+    width: 100vw;
+    height:  100vh;
+    padding-top: 30px;
 }
 .Text{
     background-color: white;
     border-radius: 10%;
     width: 400px;
-    height: 75px;
-    margin-left: 475px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 15px;
 }
 .Welcome{
     color:rgb(19, 10, 10);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: smaller;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
-.acessAbility{
+.title-link{
+    text-align: center;
+}
+.title{
+    font-size: 35px;
+    text-align: center;
+}
+.secondMainBlock{
+    background-image: linear-gradient(to bottom right, red, yellow);
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 30px;
+    justify-content: center;
+}
+.PlayerBars{
+    display: flex;
+    justify-content: center;
+    column-gap: 250px;
+    height: 400px;
+    padding: 15px;
+}
+.Player1{
     background-color: white;
-    font-size: larger;
-    color: rgb(19, 10, 10);
     width: 250px;
+    height: 400px;
+    font-size: 30px;
     border-radius: 10%;
-    width: 325px;
-    height: 75px;
-    margin-left: 550px;
+    justify-content: center;
+}
+.Player2{
+    background-color: white;
+    width: 250px;
+    height: 400px;
+    font-size: 30px;
+    border-radius: 10%;
+    justify-content: center;
+}
+.sus1{
+    text-align: center;
+}
+.sus2{
+    text-align: center;
+}
+.sus3{
+    text-align: center;
+}
+.sus4{
+    text-align: center;
 }
 
