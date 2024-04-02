@@ -35,6 +35,7 @@
     height: 100vh;
     padding-top: 30px;
     justify-content: center;
+    display: block;
 }
 .PlayerBars{
     display: flex;
@@ -71,4 +72,50 @@
 .sus4{
     text-align: center;
 }
+.Buttons{
+    display: block;
+    justify-content: center;
+    padding-left: 650px;
+}
+.giveUp{
+    border-radius: 10%;
+    width: 150px;
+    height: 75px;
+    background-color: white;
+}
+.Stop{
+    border-radius: 10%;
+    width: 150px;
+    height: 75px;
+    background-color: white;
+}
+.endGame{
+    border-radius: 10%;
+    width: 150px;
+    height: 75px;
+    background-color: white;
+}
+.Controls{
+    justify-content: center;
+    padding-top: 100px;
+}
+.giveUpt{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    justify-content: center;
+    font-size: 25px;
+}
+.Stopt{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    justify-content: center;
+    font-size: 25px;
+}
+.endGamet{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    justify-content: center;
+    font-size: 25px;
+}
+
 
