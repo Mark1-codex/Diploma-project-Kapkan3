@@ -2,7 +2,7 @@
     background-image: linear-gradient(to bottom right, red, yellow);
     justify-content: center;
     width: 100vw;
-    height:  100vh;
+    /* height:  100vh; */
     padding-top: 30px;
 }
 .Text{
@@ -32,17 +32,16 @@
     background-image: linear-gradient(to bottom right, red, yellow);
     justify-content: center;
     width: 100vw;
-    height: 100vh;
     padding-top: 30px;
     justify-content: center;
     display: block;
+    padding-bottom: 30px;
 }
 .PlayerBars{
     display: flex;
     justify-content: center;
-    column-gap: 250px;
+    column-gap: 100px;
     height: 400px;
-    padding: 15px;
 }
 .Player1{
     background-color: white;
@@ -72,32 +71,35 @@
 .sus4{
     text-align: center;
 }
-.Buttons{
+.Buttons {
     display: block;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding-left: 650px;
+    row-gap: 30px;
+    align-items: center;
 }
 .giveUp{
     border-radius: 10%;
-    width: 150px;
-    height: 75px;
     background-color: white;
 }
 .Stop{
     border-radius: 10%;
-    width: 150px;
-    height: 75px;
     background-color: white;
 }
 .endGame{
     border-radius: 10%;
-    width: 150px;
-    height: 75px;
     background-color: white;
 }
 .Controls{
+    display: flex;
     justify-content: center;
-    padding-top: 100px;
+    column-gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h5{
+    padding: 14px 30px;
 }
 .giveUpt{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -117,5 +119,7 @@
     justify-content: center;
     font-size: 25px;
 }
-
-
+.cube{
+    width: 50px;
+    height: 50px;
+}

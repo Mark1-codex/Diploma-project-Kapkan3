@@ -7,6 +7,8 @@ let dice = document.getElementById('dice')
 let giveUp = document.getElementById('giveUp')
 let opponentsTurn = document.getElementById('nextTime')
 let endGame = document.getElementById('stopGame')
+//Creating of dice picture//
+dice.style.display = "none"
 //Making turns (you and Opponent)//
 let Turn = 1
 opponentsTurn.addEventListener('click', function(){
@@ -28,6 +30,8 @@ playerOne.addEventListener('click' , function() {
         scoreOnen++
     }
     scoreOne.textContent = `Score = ${scoreOnen}`
+    dice.style.display = "block"
+    dice.src = `dice${AddictionOne+1}.png`
     }
 })
 playerTwo.addEventListener('click' , function() {
@@ -37,5 +41,7 @@ playerTwo.addEventListener('click' , function() {
         scoreTwon++
     }
     scoreTwo.textContent = `Score = ${scoreTwon}`
+    dice.style.display = "block"
+    dice.src = `dice${AddictionTwo+1}.png`
     }
 })
